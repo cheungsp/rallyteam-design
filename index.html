@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div class="whitesmoke">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="input-group search-group">
+              <input type="text" class="form-control" placeholder="What kind of opportunity are you looking for?">
+              <span class="input-group-btn">
+                <button class="btn btn-success" id="search-button" type="button">Search</button>
+              </span>
+            </div>
+            <div class="top-bar">
+              <ul class="nav navbar-nav navbar-left">
+                <li><a href="#" id="project-tab">PROJECTS</a></li>
+                <li><a href="#">JOBS</a></li>
+              </ul>
+              <hr/>
+            </div>
+        </div>
+        
+        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+          <h2>Filters</h2>
+          
+          <h5>Show me</h5>
+          <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle side-button" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              All Open Projects
+              <span class="caret"></span>
+            </button>
+          </div>
+          
+          <h5>Category</h5>
+          <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle side-button" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              All Categories
+              <span class="caret"></span>
+            </button>
+          </div>
+          
+          <h5>Project Type</h5>
+          <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle side-button" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              All Projects
+              <span class="caret"></span>
+            </button>
+          </div>
+          
+          <h5>Location</h5>
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Enter Location...">
+          </div>
+          
+          <h5>Staffing Need</h5>
+          <form action="">
+            <input type="checkbox" checked> On-Site<br>
+            <input type="checkbox" checked> Remote
+          </form>
+          
+          <h5>Hours per week</h5>
+          <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle side-button" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Select
+              <span class="caret"></span>
+            </button>
+          </div>
+          
+          <br>
+          
+          <div class="pull-right">
+            <button class="btn btn-default reset-button" type="button">Reset</button>    
+          </div>
+          
+          
+        </div>
+        
+        <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 whitesmoke">
+          <div class="row">
+            
+            <!-- 1 -->
+            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 single">
+              <div class="inner-level">
+                <div class="image-holder">
+                  <img src="images/1.png" alt="Rocket Ship" class="image-thumbnail">
+                </div>
+                <div class="text-holder">
+                <h5>Intern Onboarding and Training</h5>
+                <span class="match">&nbsp75% match </span> <br>
+                <span class="glyphicon glyphicon-bookmark blue"></span> Engineering <br>
+                <span class="glyphicon glyphicon-map-marker blue"></span> Vancouver BC, Canada <br>
+                <span class="glyphicon glyphicon-home blue"></span> On-site 
+              </div>
+            </div>
+          </div>
+            
+            <!-- 2 -->
+            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 single">
+              <div class="inner-level">
+                <div class="image-holder">
+                  <img src="images/2.png" alt="Rocket Ship" class="image-thumbnail">
+                </div>
+                <div class="text-holder">
+                <h5>Marketing Strategy and online presence project</h5>
+                <span class="match">&nbsp93% match </span> <br>
+                <span class="glyphicon glyphicon-bookmark blue"></span> Marketing <br>
+                <span class="glyphicon glyphicon-map-marker blue"></span> Boulder Colorado, United States <br>
+                <span class="glyphicon glyphicon-home blue"></span> On-site 
+              </div>
+            </div>
+          </div>
+            
+            <!-- 3 -->
+            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 single">
+              <div class="inner-level">
+                <div class="image-holder">
+                  <img src="images/3.png" alt="Rocket Ship" class="image-thumbnail">
+                </div>
+                <div class="text-holder">
+                <h5>London team building trip 2017 - All members</h5>
+                <span class="match">&nbsp68% match </span> <br>
+                <span class="glyphicon glyphicon-bookmark blue"></span> Engineering <br>
+                <span class="glyphicon glyphicon-map-marker blue"></span> Longdon, United Kingdom <br>
+                <span class="glyphicon glyphicon-home blue"></span> Remote 
+              </div>
+            </div>
+          </div>
+            
+            <!-- 4 -->
+            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 single">
+              <div class="inner-level">
+                <div class="image-holder">
+                  <img src="images/4.png" alt="Rocket Ship" class="image-thumbnail">
+                </div>
+                <div class="text-holder">
+                <h5>Sales Team re-structure</h5>
+                <span class="match">&nbsp100% match </span> <br>
+                <span class="glyphicon glyphicon-bookmark blue"></span> Sales <br>
+                <span class="glyphicon glyphicon-map-marker blue"></span> San Francisco, California, USA <br>
+                <span class="glyphicon glyphicon-home blue"></span> On-site 
+              </div>
+            </div>
+          </div>
+          </div>
+            
+            <!-- second row -->
+            <div class="row">
+              <!-- 5 -->
+              <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 single">
+                <div class="inner-level">
+                  <div class="image-holder">
+                    <img src="images/5.png" alt="Rocket Ship" class="image-thumbnail">
+                  </div>
+                  <div class="text-holder">
+                    <h5>Front End Engineer - Part Time</h5>
+                    <span class="match">&nbsp25% match </span> <br>
+                    <span class="glyphicon glyphicon-bookmark blue"></span> Engineering <br>
+                    <span class="glyphicon glyphicon-map-marker blue"></span> Vancouver BC, Canada <br>
+                    <span class="glyphicon glyphicon-home blue"></span> On-site 
+                </div>
+              </div>
+              </div>
+              
+              <!-- 6 -->
+              <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 single">
+                <div class="inner-level">
+                  <div class="image-holder">
+                    <img src="images/6.png" alt="Rocket Ship" class="image-thumbnail">
+                  </div>
+                  <div class="text-holder">
+                  <h5>Web to Lead process</h5>
+                  <span class="match">&nbsp44% match </span> <br>
+                  <span class="glyphicon glyphicon-bookmark blue"></span> Marketing <br>
+                  <span class="glyphicon glyphicon-map-marker blue"></span> Boulder Colorado, United States <br>
+                  <span class="glyphicon glyphicon-home blue"></span> Remote
+                </div>
+              </div>
+            </div>
+              
+              <!-- 7 -->
+              <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 single">
+                <div class="inner-level">
+                  <div class="image-holder">
+                    <img src="images/7.png" alt="Rocket Ship" class="image-thumbnail">
+                  </div>
+                  <div class="text-holder">
+                  <h5>Online Content for Website - E books and blog</h5>
+                  <span class="match">&nbsp39% match </span> <br>
+                  <span class="glyphicon glyphicon-bookmark blue"></span> Marketing <br>
+                  <span class="glyphicon glyphicon-map-marker blue"></span> Edmonton, Alberta, Canada <br>
+                  <span class="glyphicon glyphicon-home blue"></span> On-site 
+                </div>
+              </div>
+            </div>
+              
+              <!-- 8 -->
+              <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 single">
+                <div class="inner-level">
+                  <div class="image-holder">
+                    <img src="images/8.png" alt="Rocket Ship" class="image-thumbnail">
+                  </div>
+                  <div class="text-holder">
+                  <h5>Online Presence - Facebook</h5>
+                  <span class="match">&nbsp24% match </span> <br>
+                  <span class="glyphicon glyphicon-bookmark blue"></span> Marketing <br>
+                  <span class="glyphicon glyphicon-map-marker blue"></span> San Francisco, California, USA <br>
+                  <span class="glyphicon glyphicon-home blue"></span> Remote 
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      </div>
+  </body>
+</html>

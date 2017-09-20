@@ -1,0 +1,73 @@
+
+.search-group {
+padding-top: 50px; 
+}
+
+#search-button {
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #39ac73 !important;
+  border-color: #39ac73 !important;
+}
+
+#project-tab{
+  border-bottom: #39ac73 3px solid;
+}
+
+.top-bar {
+   /*border-bottom: 1px solid black !important;*/
+}
+
+hr {
+  margin-top: 33px; /*so you can see it in demo */
+  width: 100%;
+}
+
+.side-button {
+  width: 100%;
+}
+
+/* Single thumbnail project */
+.image-thumbnail {
+  width: 100%;
+}
+
+.match {
+ color: #00cc00;
+}
+
+.blue {
+  color: #007acc
+}
+.whitesmoke {
+  background-color: whitesmoke;
+}
+.white {
+  background-color: white;
+}
+
+.single {
+  font-size: 13px;
+  height: 300px;
+  /*padding-bottom: 10px;*/
+  /*border-style: solid;*/
+  /*border-width: 1px;*/
+  margin-bottom: 5px;
+  background-color: whitesmoke;
+}
+
+.inner-level {
+  height: 280px;
+  /*margin-left: 2px;*/
+  /*margin-right: 2px;*/
+  background-color: white;
+  width: 110%;
+  /*border-style: solid;*/
+  /*border-width: 1px;*/
+  /*border-color: grey;*/
+}
+
+.text-holder {
+  padding-left: 5px;
+  padding-right: 5px;
+}
