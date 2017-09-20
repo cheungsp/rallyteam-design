@@ -57,10 +57,13 @@ hr {
 .blue {
   color: #007acc
 }
-.whitesmoke {
+
+.whitesmoke-background {
   background-color: whitesmoke;
 }
-
+.chevron {
+  color: #d9d9d9;
+}
 
 .single {
   font-size: 13px;
