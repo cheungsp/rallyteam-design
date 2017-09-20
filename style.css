@@ -1,6 +1,12 @@
+.top-section {
+  padding-top: 35px;
+}
 
 .search-group {
-padding-top: 50px; 
+padding: 20px 30px 20px 30px;
+margin-left: -15px;
+margin-right: -15px;
+background-color: white;
 }
 
 #search-button {
@@ -12,7 +18,14 @@ padding-top: 50px;
 
 #project-tab{
   border-bottom: #39ac73 3px solid;
+  color: black;
+  font-weight: bold;
 }
+
+#job-tab {
+  color: black;
+}
+
 
 .top-bar {
    /*border-bottom: 1px solid black !important;*/
@@ -21,6 +34,11 @@ padding-top: 50px;
 hr {
   margin-top: 33px; /*so you can see it in demo */
   width: 100%;
+}
+
+.filter-group {
+  background-color: white;
+  padding-bottom: 52px;
 }
 
 .side-button {
@@ -42,9 +60,7 @@ hr {
 .whitesmoke {
   background-color: whitesmoke;
 }
-.white {
-  background-color: white;
-}
+
 
 .single {
   font-size: 13px;
