@@ -27,12 +27,8 @@ background-color: white;
 }
 
 
-.top-bar {
-   /*border-bottom: 1px solid black !important;*/
-}
-
 hr {
-  margin-top: 33px; /*so you can see it in demo */
+  margin-top: 33px;
   width: 100%;
 }
 
@@ -68,22 +64,14 @@ hr {
 .single {
   font-size: 13px;
   height: 300px;
-  /*padding-bottom: 10px;*/
-  /*border-style: solid;*/
-  /*border-width: 1px;*/
   margin-bottom: 5px;
   background-color: whitesmoke;
 }
 
 .inner-level {
   height: 280px;
-  /*margin-left: 2px;*/
-  /*margin-right: 2px;*/
   background-color: white;
   width: 110%;
-  /*border-style: solid;*/
-  /*border-width: 1px;*/
-  /*border-color: grey;*/
 }
 
 .text-holder {
