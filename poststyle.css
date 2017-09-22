@@ -1,0 +1,71 @@
+.whitesmoke {
+  background-color: whitesmoke;
+}
+
+.white {
+  background: white;
+}
+
+.padding {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.header{
+  background-color: #4dc3ff;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 25px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin: 25px -15px 15px -15px;
+}
+.side-button {
+  width: 100%;
+}
+
+.dropdown-button {
+  width: 100%;
+}
+
+.calender {
+  margin-right: 15px;
+  color: grey;
+}
+
+#checkboxes {
+  margin-left: 15px;
+  padding-bottom: 10px;
+}
+.boxsizingBorder {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.text-bar {
+  width: 100.5%;
+}
+
+.text-box {
+  width:100%;
+  box-sizing: border-box;  
+  color: gray;
+}
+
+#next-button {
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #39ac73 !important;
+  border-color: #39ac73 !important;
+  margin-right: 15px;
+  margin-left: 10px;
+}
+
+#save-button {
+  margin-left: 8px;
+}
+.footer {
+  padding-bottom: 50px;
+  padding-top: 15px;
+}
